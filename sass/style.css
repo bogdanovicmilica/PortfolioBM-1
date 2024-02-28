@@ -293,7 +293,7 @@ footer i {
 }
 @media screen and (max-width: 720px) {
   #projects {
-    width: 100%;
+    width: 80%;
   }
   #projects hr {
     display: none;
