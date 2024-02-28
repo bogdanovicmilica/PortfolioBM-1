@@ -187,6 +187,10 @@ footer{
         padding: 0px 60px;
     }
 }
+#icons{
+    display: flex;
+    justify-content: space-between;
+}
 @media screen and (max-width: 1050px){
         .block_two #about_me .text_two{
             width: 100%;
@@ -305,12 +309,14 @@ footer{
         @include flexColumn;
         h1{
             color: $secondary_color;
+            width: 80%;
         }
         hr{
             border: 1px solid $secondary_color;
+            width: 80%;
         }
         .text{
-            width: 100%;
+            width: 80%;
             color: $secondary_color;
         }
     }

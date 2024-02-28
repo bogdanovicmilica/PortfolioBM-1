@@ -236,6 +236,11 @@ footer i {
   padding: 0px 60px;
 }
 
+#icons {
+  display: flex;
+  justify-content: space-between;
+}
+
 @media screen and (max-width: 1050px) {
   .block_two #about_me .text_two {
     width: 100%;
@@ -357,12 +362,14 @@ footer i {
   }
   .block_one h1 {
     color: white;
+    width: 80%;
   }
   .block_one hr {
     border: 1px solid white;
+    width: 80%;
   }
   .block_one .text {
-    width: 100%;
+    width: 80%;
     color: white;
   }
   .block_two {
