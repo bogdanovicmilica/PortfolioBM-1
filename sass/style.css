@@ -240,6 +240,7 @@ footer i {
   display: flex;
   justify-content: space-between;
   font-size: 20pt;
+  width: 80%;
 }
 
 @media screen and (max-width: 1050px) {
