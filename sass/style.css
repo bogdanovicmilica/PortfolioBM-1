@@ -262,15 +262,14 @@ footer i {
   #projects h1 hr {
     border: 1px solid white;
   }
+  .block_two #about_me .text_two {
+    word-break: normal;
+    font-size: 10pt;
+  }
+  .block_two #about_me .text_two .block_two {
+    height: 400px;
+  }
 }
-.block_two #about_me .text_two {
-  word-break: normal;
-  font-size: 10pt;
-}
-.block_two #about_me .text_two .block_two {
-  height: 400px;
-}
-
 @media screen and (max-width: 720px) {
   .block_one {
     width: 100%;
@@ -315,7 +314,7 @@ footer i {
     transition: 0.6s;
   }
 }
-@media screen and (max-width: 720px) and (max-width: 630px) {
+@media screen and (max-width: 630px) {
   form {
     width: 100%;
     border-radius: 0px;
@@ -327,8 +326,6 @@ footer i {
     color: white;
     border: none;
   }
-}
-@media screen and (max-width: 720px) {
   #projects img {
     width: 300px;
   }
@@ -345,7 +342,7 @@ footer i {
     font-size: 30pt;
   }
 }
-@media screen and (max-width: 720px) and (max-width: 400px) {
+@media screen and (max-width: 400px) {
   #header-all {
     font-size: 9pt;
     background-color: white;

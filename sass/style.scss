@@ -215,13 +215,13 @@ footer{
             }
         }
     }
-}
     .block_two #about_me .text_two{
         word-break: normal;
         font-size: 10pt;
         .block_two{
             height: $height_two;
     }
+}
 }
 @media screen and (max-width: 720px){
     .block_one{
@@ -262,6 +262,7 @@ footer{
         }
     }
 }
+}
 @media screen and (max-width: 630px){
     form{
         width: 100%;
@@ -274,7 +275,6 @@ footer{
             border: none;
         }
     }
-}
     #projects{
         img{
             width: 300px;
@@ -291,6 +291,7 @@ footer{
             font-size: 30pt;
         }
     }
+}
 }
 @media screen and (max-width: 400px){
     #header-all{
@@ -341,4 +342,4 @@ footer{
         }
 }
 }
-}
+
