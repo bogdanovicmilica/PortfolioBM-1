@@ -278,7 +278,7 @@ footer i {
 }
 @media screen and (max-width: 720px) {
   .block_one {
-    width: 100%;
+    width: 90%;
   }
   .block_one img {
     width: 40%;
@@ -293,7 +293,7 @@ footer i {
 }
 @media screen and (max-width: 720px) {
   #projects {
-    width: 80%;
+    width: 90%;
   }
   #projects hr {
     display: none;
