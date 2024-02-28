@@ -305,8 +305,17 @@ footer i {
   #projects h1 img {
     width: 400px;
   }
+  #projects h1 img:hover {
+    border-radius: 50px;
+    transition: 0.7s;
+    width: 500px;
+    transition: 0.6s;
+  }
+  #projects h1 img:hover::after {
+    transition: 0.6s;
+  }
 }
-@media screen and (max-width: 630px) {
+@media screen and (max-width: 720px) and (max-width: 630px) {
   form {
     width: 100%;
     border-radius: 0px;
@@ -318,20 +327,31 @@ footer i {
     color: white;
     border: none;
   }
+}
+@media screen and (max-width: 720px) {
   #projects img {
     width: 300px;
   }
-  #projects h1 {
+  #projects img:hover {
+    border-radius: 50px;
+    transition: 0.7s;
+    width: 400px;
+    transition: 0.6s;
+  }
+  #projects img:hover::after {
+    transition: 0.6s;
+  }
+  #projects img h1 {
     font-size: 30pt;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 720px) and (max-width: 400px) {
   #header-all {
     font-size: 9pt;
     background-color: white;
   }
   #header-all img {
-    width: 40px;
+    width: 50px;
   }
   .block_one {
     display: flex;
@@ -360,7 +380,16 @@ footer i {
     border-radius: 20px;
     width: 300px;
   }
-  footer i {
+  #projects img:hover {
+    border-radius: 50px;
+    transition: 0.7s;
+    width: 330px;
+    transition: 0.6s;
+  }
+  #projects img:hover::after {
+    transition: 0.6s;
+  }
+  #projects footer i {
     padding: 0px 15px;
     font-size: 20pt;
   }
