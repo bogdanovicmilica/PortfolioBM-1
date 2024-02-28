@@ -250,6 +250,14 @@ footer{
             font-weight: $font_weight_one;
             img{
                 width: 400px;
+                &:hover{
+                border-radius: 50px;
+                transition: 0.7s;
+                width: 500px;
+                transition: 0.6s;
+                &::after{
+                    transition: 0.6s;
+            }
             }
         }
     }
@@ -269,7 +277,15 @@ footer{
     #projects{
         img{
             width: 300px;
-        }
+        &:hover{
+                border-radius: 50px;
+                transition: 0.7s;
+                width: 400px;
+                transition: 0.6s;
+                &::after{
+                    transition: 0.6s;
+                }
+            }
         h1{
             font-size: 30pt;
         }
@@ -280,7 +296,7 @@ footer{
         font-size: 9pt;
         background-color: $secondary_color;
         img{
-            width: 40px;
+            width: 50px;
         }
     }
     .block_one{
@@ -306,6 +322,14 @@ footer{
         img{
             border-radius: 20px;
             width: 300px;
+            &:hover{
+                border-radius: 50px;
+                transition: 0.7s;
+                width: 330px;
+                transition: 0.6s;
+                &::after{
+                    transition: 0.6s;
+            }
         }
     }
     footer{
